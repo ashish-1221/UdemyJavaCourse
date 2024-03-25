@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MotorBikeRunner",
+            "request": "launch",
+            "mainClass": "MotorBikeRunner",
+            "projectName": "FirstJavaProject_10b39cb1"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
