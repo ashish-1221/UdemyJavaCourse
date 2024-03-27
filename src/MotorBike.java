@@ -5,13 +5,25 @@ public class MotorBike {
     //behaviours
     //letting other classes access the value of the speed through the 
     // methods or actions
-    void setSpeed(int speed){
-        //in this case variable speed is a local variable
+
+
+    // contstructors-> special kind of method
+    // name of constructor = name of the class
+    MotorBike(int speed){
         this.speed = speed;
         
     }
 
     void  start () {
         System.out.println("Bike Started!!!!");
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+        
     }
 }
